@@ -10,17 +10,18 @@
 * {
     width: 1200px;
     margin: auto;
-    background-color: white;
+    
 }
 
 body{
-    width: 100;
+    width: 100%;
     font-family: sans-serif;
 }
 
 header{
     width: 100%;
     margin-bottom: 20px;
+    background-color: #b3b3b3;
     
 }
 header h1{
@@ -82,8 +83,9 @@ nav a:hover{
     color: rgb(59, 184, 226);
 }
 
-
-
+section{
+    background-color: #ebebeb;
+}
 .Banner{
     width: 100%;
     margin:  auto;
@@ -129,16 +131,16 @@ nav a:hover{
 
 .Brand{
     width: 300px;
-    height: 470px;
-    margin-top: 50px;
+    height: 480px;
     margin-right: 910px;
 
 }
 .Brand h1{
     width: 300px;
+    padding-top: 50px;
     text-align: center;
     font-size: 28px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     
     
 }
@@ -246,9 +248,10 @@ table th{
 .Product{
     width: 900px;
     height: 400px;
-    margin-top: -470px;
+    padding-top: 50px;
+    margin-top: -480px;
     margin-left: 300px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .Product h1{
@@ -271,12 +274,13 @@ table th{
     height: 40px;
     font-size: 20px;
     text-align: right;
+    margin-right: 30px;
     float: right;
     margin-top: -90px;
 
 }
 .post-Smartphone{
-    width: 800px;
+    width: 770px;
     height: 360px;
     margin:auto;
     overflow: hidden;
@@ -294,10 +298,12 @@ table th{
     width: 100px;
     margin-top: 5px;
     text-align: center;
+    color: black;
 }
 .smartphone-opsi  img{
     width: 150px;
     height: 300px;
+    border-radius: 15px;
 }
 a{
     width: 150px;
@@ -309,12 +315,12 @@ a{
 
 .Review{
     width: 100%;
-    margin-bottom: 20px;
 }
 .Review h1{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .prev-review{
     width: 40px;
@@ -323,6 +329,7 @@ a{
     text-align: left;
     float: left;
     margin-top: 150px;
+    margin-left: 30px;
 }
 .next-review{
     width: 40px;
@@ -331,10 +338,11 @@ a{
     text-align: right;
     float: right;
     margin-top: 150px;
+    margin-right: 30px;
     
 }
 .post-review{
-    width: 93%;
+    width: 85%;
     height: 400px;
     margin: auto;
     overflow: hidden;
@@ -349,14 +357,19 @@ iframe{
 
 
 .Berita{
-    width: 95%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .Berita h1{
     text-align: center;
     font-size: 30px;
     margin-bottom: 40px;
+}
+.Berita h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .beritaTerbaru{ 
     width:100%;
@@ -378,7 +391,11 @@ iframe{
 .IsiBerita{
     margin: 15px
 }
+.IsiBerita h3{
+    color: black;
+}
 .IsiBerita p{
+    color: black;
     font-size: 15px;
     margin-top: 10px;
 }
@@ -437,13 +454,8 @@ article input{
 }
 
 
-
-
-
-
 footer{
     width: 100%;
-    margin-top: 50px;
 }
 footer h1{
     background-color: var(--color1--);
