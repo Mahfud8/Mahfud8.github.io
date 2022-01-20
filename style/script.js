@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('.post-Smartphone').slick({
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 6,
       slidesToScroll: 1,
       nextArrow: $('.next-product'),
       prevArrow: $('.prev-product'),
